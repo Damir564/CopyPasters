@@ -1,1 +1,188 @@
+html {
+  font-family: "GT Eesti Pro Text";
+  font-style: normal;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  --first-img-background: rgb(240, 240, 250, 1);
+  --background-body: #EAEAEA;
+  --background-main1: #6E6E6D;
+  --background-h1: #F0F0F0;
+  --background-time: #FAFAFA;
+  --background-aglomashina: #F4F4F4;
+  --font-aglomashina: #6E6E6D;
+  --border-h1: #e1e1e1;
+  --font-main1: white;
+  --font-main2: white;
+  --font-main3: rgb(149, 28, 106);
+  --font-main4: rgb(195, 76, 247);
+  --font-second2: #f0f0fa;
+  --background-main2: #3579f4;
+  --background-second2: #5591ff;
+  --background-second3: #693acd;
+  --font-main3: white;
+  --background-main3: #18162d;
+  --font-second3: #666666;
+  --margin-top: 1em;
+  --margin-bottom: 0.7em;
+}
 
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.legends {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 1.6rem;
+}
+
+.legend {
+  font-size: 1.3rem;
+}
+
+.aglomashina {
+  width: 58.6rem;
+  margin: 1.6rem;
+}
+
+.aglomashina-title {
+  background-color: var(--background-aglomashina);
+  color: var(--font-aglomashina);
+  min-height: 4rem;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.eksgauster {
+  width: 28.6rem;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #E5E5E5;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.block-header {
+  justify-content: space-between;
+  color: var(--font-main1);
+  background-color: var(--background-main1);
+  padding: 0.7rem 1.4rem;
+  align-items: center;
+}
+
+.block-rotor {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 1.4rem 1rem 1.4rem;
+}
+
+.block-time {
+  padding: 1.4rem 1.4rem 0 1.4rem;
+}
+
+.block-time-title {
+  padding-left: 2rem;
+}
+
+.block-time-body {
+  align-items: center;
+  padding: 0.5rem 2rem;
+  gap: 1rem;
+  background-color: var(--background-time);
+  border-radius: 4px;
+}
+
+.block-podshipniks {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.podshipnik {
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: var(--background-time);
+  border-radius: 4px;
+  height: 3rem;
+  /* padding-top: 0.75rem; */
+  margin-top: 0.45rem;
+  margin-bottom: 0.45rem;
+}
+
+.status {
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  height: 3rem;
+  background-size: 3.7rem 2rem;
+}
+
+.section-main {
+  margin: 1.6rem;
+  background-color: white;
+}
+
+p {
+  font-size: 1.5rem;
+  /* margin: var(--margin-top) 0 var(--margin-bottom) 0; */
+}
+
+li{
+  list-style: none;
+}
+
+body {
+  background-color: var(--background-body);
+}
+
+.section-main-title {
+  background-color: var(--background-h1);
+  padding-left: 1.6rem;
+  height: 4rem;
+  padding: 0.7rem 1.4rem;
+  border: 1px solid var(--border-h1);
+}
+
+.time {
+  background-color: #F4F4F4;
+  border-radius: 4px;
+}
+
+.block-params {
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.block-img {
+  padding: 1rem 1.4rem;
+}
+
+.eksgausters {
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding: 1.0rem 0.7rem;
+}
+
+hr {
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
+  border: 1px solid #EFEFEF;
+}

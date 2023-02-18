@@ -10,80 +10,143 @@
 </head>
 <body>
     <header>
-        <button>Меню</button>
-        <img src="#">
-        <p>Прогнозная аналитика эксгаустеров</p>
-        <button>Справочник</button>
-        <button>Уведомления</button>
+        <div class="wrapper header">
+            <div>
+                <button>Меню</button>
+                <img src="#" alt="Logo">
+            </div>
+            <div>
+                <p>Прогнозная аналитика эксгаустеров</p>
+            </div>
+            <div>
+                <button>Справочник</button>
+                <button>Уведомления</button>
+            </div>
+        </div>
     </header>
     <body>
-        <section>
-            <img src="#"><h1>Главный экран</h1>
+        <section class="section-main">
+            <div class="section-main-title"><h1><img src="#" alt="Файл">Главный экран</h1></div>
             <section>
-                <div>
-                    <img src="#"><p>Температура</p>
-                    <img src="#"><p>Вибрация</p>
-                    <img src="#"><p>Уровень масла</p>
-                    <img src="#"><p>Предупреждение</p>
-                    <img src="#"><p>Опасность</p>
+                <div class="wrapper legends">
+                    <p class="legend"><img src="#" alt="Температура">Температура</p>
+                    <p class="legend"><img src="#" alt="Вибрация">Вибрация</p>
+                    <p class="legend"><img src="#" alt="Уровень масла">Уровень масла</p>
+                    <p class="legend"><img src="#" alt="Давление масла">Давление масла</p>
+                    <p class="legend"><img src="#" alt="Предупреждение">Предупреждение</p>
+                    <p class="legend"><img src="#" alt="Опасность">Опасность</p>
                 </div>
                 <ul>
-                    <li><section><img src="#"><h2>Агломашина №1</h2>
-                        <section>
-                            <div>
-                                <img src="#">
-                                <h3>Эксгаустер У-171</h3>
-                                <a>></a>
-                            </div>
-                            <div>
-                                <h4>Ротор № 35к</h4>
-                                <p>12.02.2022</p>
-                                <a href="#">Изменить</a>
-                            </div>
-                            <hr>
-                            <div>
-                                <p>Последняя замена ротера</p>
-                                <div>
-                                    <p>6 сут</p>
-                                    <div>
-                                        <p>Прогноз</p><img src="#">
-                                        <p>12 сут</p>
+                    <li><section class="aglomashina">
+                        <h2 class="aglomashina-title">Агломашина №1</h2>
+                        <div class="wrapper eksgausters">
+                            <section class="eksgauster">
+                                <div class="wrapper block-header">
+                                    <h3><img src="#" alt="Индикатор">Эксгаустер У-171</h3><a>></a>
+                                </div>
+                                <div class="wrapper block-rotor">
+                                    <h4>Ротор № 35к</h4>
+                                    <p class="time">12.02.2022</p>
+                                    <a href="#">Изменить</a>
+                                </div>
+                                <hr>
+                                <div class="block-time">
+                                    <p class="block-time-title">Последняя замена ротера</p>
+                                    <div class="wrapper block-time-body">
+                                        <p class="time">6 сут</p>
+                                        <div>
+                                            <p>Прогноз<img src="#" alt="Предупр"></p>
+                                            <p>12 сут</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div>
-                                <img src="#">
-                            </div>
-                            <div>
-                                <div>
-                                    <button>V</button><p>Предупреждение</p>
+                                <div class="block-img">
+                                    <img src="img/Scheme.svg" alt="Схема">
                                 </div>
-                                <div>
+                                <div class="block-params">
+                                    <div class="wrapper">
+                                        <button>V</button><p>Предупреждение</p>
+                                    </div>
                                     <div>
-                                        
+                                        <div class="wrapper block-podshipniks">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="wrapper">
+                                        <button>V</button><p>Все подшипники</p>
+                                    </div>
+                                    <div class="wrapper block-podshipniks">
+                                        <div class="wrapper podshipnik"><p>№1 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"><img src="img/V_normal.svg" alt="Вибрация"></div></div>
+                                        <div class="wrapper podshipnik"><p>№2 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"><img src="img/V_normal.svg" alt="Вибрация"></div></div>
+                                        <div class="wrapper podshipnik"><p>№3 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"></div></div>
+                                        <div class="wrapper podshipnik"><p>№4 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"></div></div>
+                                        <div class="wrapper podshipnik"><p>№5 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"></div></div>
+                                        <div class="wrapper podshipnik"><p>№6 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"></div></div>
+                                        <div class="wrapper podshipnik"><p>№7 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"><img src="img/V_normal.svg" alt="Вибрация"></div></div>
+                                        <div class="wrapper podshipnik"><p>№8 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"><img src="img/V_normal.svg" alt="Вибрация"></div></div>
+                                        <div class="wrapper podshipnik"><p>№9 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"></div></div>
+                                        <div class="wrapper podshipnik"><p>Уровень масла</p><div class="wrapper status"><img src="img/L_normal.svg" alt="Масло"></div></div>
+                                        <div class="wrapper podshipnik"><p>Давление масла</p><div class="wrapper status"><img src="img/L_normal.svg" alt="Давление"></div></div>
+                                    </div>
+                                    <div>
+                                        <button>Отправить сообщение в SAP</button>
                                     </div>
                                 </div>
-                                <div>
-                                    <button>V</button><p>Все подшипники</p>
+                            </section>
+                            <!-- <section class="eksgauster">
+                                <div class="wrapper block-header">
+                                    <h3><img src="#" alt="Индикатор">Эксгаустер У-171</h3><a>></a>
                                 </div>
-                                <div>
-                                    <div><p>№1 п-к</p><img scr="#"><img src="#"></div>
-                                    <div><p>№2 п-к</p><img scr="#"><img src="#"></div>
-                                    <div><p>№3 п-к</p><img src="#"></div>
-                                    <div><p>№4 п-к</p><img src="#"></div>
-                                    <div><p>№5 п-к</p><img src="#"></div>
-                                    <div><p>№6 п-к</p><img src="#"></div>
-                                    <div><p>№7 п-к</p><img scr="#"><img src="#"></div>
-                                    <div><p>№8 п-к</p><img scr="#"><img src="#"></div>
-                                    <div><p>№9 п-к</p><img src="#"></div>
-                                    <div><p>Уровень масла</p><img src="#"></div>
-                                    <div><p>Давление масла</p><img src="#"></div>
+                                <div class="wrapper block-rotor">
+                                    <h4>Ротор № 35к</h4>
+                                    <p class="time">12.02.2022</p>
+                                    <a href="#">Изменить</a>
                                 </div>
-                                <div>
-                                    <button>Отправить сообщение в SAP</button>
+                                <hr>
+                                <div class="block-time">
+                                    <p class="block-time-title">Последняя замена ротера</p>
+                                    <div class="wrapper block-time-body">
+                                        <p class="time">6 сут</p>
+                                        <div>
+                                            <p>Прогноз<img src="#" alt="Предупр"></p>
+                                            <p>12 сут</p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </section>
+                                <div class="block-img">
+                                    <img src="img/Scheme.svg" alt="Схема">
+                                </div>
+                                <div class="block-params">
+                                    <div class="wrapper">
+                                        <button>V</button><p>Предупреждение</p>
+                                    </div>
+                                    <div>
+                                        <div class="wrapper block-podshipniks">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="wrapper">
+                                        <button>V</button><p>Все подшипники</p>
+                                    </div>
+                                    <div class="wrapper block-podshipniks">
+                                        <div class="wrapper podshipnik"><p>№1 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"><img src="img/V_normal.svg" alt="Вибрация"></div></div>
+                                        <div class="wrapper podshipnik"><p>№2 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"><img src="img/V_normal.svg" alt="Вибрация"></div></div>
+                                        <div class="wrapper podshipnik"><p>№3 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"></div></div>
+                                        <div class="wrapper podshipnik"><p>№4 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"></div></div>
+                                        <div class="wrapper podshipnik"><p>№5 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"></div></div>
+                                        <div class="wrapper podshipnik"><p>№6 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"></div></div>
+                                        <div class="wrapper podshipnik"><p>№7 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"><img src="img/V_normal.svg" alt="Вибрация"></div></div>
+                                        <div class="wrapper podshipnik"><p>№8 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"><img src="img/V_normal.svg" alt="Вибрация"></div></div>
+                                        <div class="wrapper podshipnik"><p>№9 п-к</p><div class="wrapper status"><img src="img/T_normal.svg" alt="Температура"></div></div>
+                                        <div class="wrapper podshipnik"><p>Уровень масла</p><div class="wrapper status"><img src="img/L_normal.svg" alt="Масло"></div></div>
+                                        <div class="wrapper podshipnik"><p>Давление масла</p><div class="wrapper status"><img src="img/L_normal.svg" alt="Давление"></div></div>
+                                    </div>
+                                    <div>
+                                        <button>Отправить сообщение в SAP</button>
+                                    </div>
+                                </div>
+                            </section> -->
+                        </div>
                         <!-- <section>
                             <h3>Эксгаустер У-172</h3>
                             <h4>Ротор № 47</h4>
