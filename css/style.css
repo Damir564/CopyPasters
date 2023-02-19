@@ -52,6 +52,7 @@ html {
 .aglomashina {
   width: 58.6rem;
   margin: 1.6rem;
+  min-width: 58.6rem;
 }
 
 .aglomashina-title {
@@ -364,4 +365,11 @@ hr {
   margin-left: auto;
   border-radius: 0.4rem;
   background-color: white;
+}
+
+
+.aglomashinas {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
 }
