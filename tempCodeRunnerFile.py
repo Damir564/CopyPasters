@@ -1,2 +1,2 @@
-cursor.execute('''CREATE DATABASE template_db WITH TEMPLATE 
-                  predictiondb OWNER postgres''')
+print("here")
+# @app.route('/data_get')
